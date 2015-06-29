@@ -10602,7 +10602,127 @@ var packageMetadata = {
       "type": "object",
       "members": {
         "karmaChilds": {
-          "type": "object"
+          "type": "object",
+          "members": {
+            "jasmine-client-unit": {
+              "type": "object",
+              "members": {
+                "taskName": {
+                  "type": "constant",
+                  "value": "jasmine-client-unit"
+                },
+                "appPath": {
+                  "type": "constant",
+                  "value": "C:\\Users\\lucas.reichert\\Documents\\TwitterMeteor"
+                },
+                "pid": {
+                  "type": "constant",
+                  "value": 6224
+                },
+                "fout": {
+                  "type": "constant",
+                  "value": 4
+                },
+                "child": {
+                  "type": "object",
+                  "members": {
+                    "domain": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "signalCode": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "exitCode": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "pid": {
+                      "type": "constant",
+                      "value": 6224
+                    },
+                    "stdin": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stdout": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stderr": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stdio": {
+                      "type": "array"
+                    },
+                    "spawn": {
+                      "type": "function"
+                    },
+                    "kill": {
+                      "type": "function"
+                    },
+                    "ref": {
+                      "type": "function"
+                    },
+                    "unref": {
+                      "type": "function"
+                    },
+                    "setMaxListeners": {
+                      "type": "function"
+                    },
+                    "emit": {
+                      "type": "function"
+                    },
+                    "addListener": {
+                      "type": "function",
+                      "refID": 17
+                    },
+                    "on": {
+                      "ref": 17
+                    },
+                    "once": {
+                      "type": "function"
+                    },
+                    "removeListener": {
+                      "type": "function"
+                    },
+                    "removeAllListeners": {
+                      "type": "function"
+                    },
+                    "listeners": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "getTaskName": {
+                  "type": "function"
+                },
+                "getChild": {
+                  "type": "function"
+                },
+                "getPid": {
+                  "type": "function"
+                },
+                "isDead": {
+                  "type": "function"
+                },
+                "isRunning": {
+                  "type": "function"
+                },
+                "readPid": {
+                  "type": "function"
+                },
+                "spawn": {
+                  "type": "function"
+                },
+                "kill": {
+                  "type": "function"
+                }
+              }
+            }
+          }
         },
         "getKarmaChild": {
           "type": "function"
